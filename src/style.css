@@ -1,6 +1,11 @@
 html {
   font-size: 1rem;
 }
+.imagem-carrossel {
+  height: 400px;
+  object-fit: cover;
+  object-position: 0 50%;
+}
 
 
 
