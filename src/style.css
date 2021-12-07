@@ -31,12 +31,15 @@ html {
   object-position: 0 50%;
 }
 .titulo-carrossel {
-  color: yellow;
+  color: #FF4500;
   font-family: 'Alatsi', sans-serif; 
   font-weight: bold;
 }
 .carousel {
   margin-top: 120px;
+}
+.fonte-corpo {
+  font-family: 'Alatsi', sans-serif; 
 }
 
 
