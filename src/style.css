@@ -36,7 +36,7 @@ html {
   font-size: 45px;
 }
 .imagem-carrossel {
-  height: 340px;
+  height: 370px;
   object-fit: cover;
   object-position: 0 50%;
 }
