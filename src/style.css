@@ -61,6 +61,12 @@ html {
 .borda-card {
   border-color: #006400;
 }
+.lista-pizzas {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 21px; 
+  font-style: italic;
+  font-weight: 800;
+}
 
 
 

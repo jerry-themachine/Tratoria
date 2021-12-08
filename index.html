@@ -10,177 +10,180 @@
     <link rel="stylesheet" href="src/style.css">
     <title>Nostrali Trattoria & Pizzaria</title>    
 </head>
-<body>
-<main>       
-    <header>               
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div><img class="logo" src="src/img/img1.png" alt=""></div>   
-            <a class="navbar-brand fonte-titulo texto-cor-especial" id="cor-titulo" href="#">Nostrali Trattoria e Pizzaria</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#receitas">Cardápio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#quem-somos">Quem somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav> 
-    </header>
-    <section class="carrossel">
-        <div id="carousel-controladores" class="carousel slide" data-ride="carousel" data-interval="2700">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-controladores" data-slide-to="0"></li>
-                <li data-target="#carousel-controladores" data-slide-to="1"></li>
-                <li data-target="#carousel-controladores" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <figure>
-                        <img src="src/img/massa3.png" class="imagem-carrossel d-block w-100" alt="barraca de frutas e verduras em uma feira livre">
-                    </figure>
-                    <div class="carousel-caption h-100 d-none d-md-block">
-                        <h2 class="titulo-carrossel text-center display-4">Massas fabricadas artesanalmente</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="src/img/madeinitaly.png" class="imagem-carrossel d-block w-100" alt="tigelas com ingredientes culinários sendo manuseadas por pessoas, vistas por cima">
-                    </figure>
-                    <div class="carousel-caption h-100 d-none d-md-block">
-                        <h2 class="titulo-carrossel made-in-italy text-center display-4">O melhor da gastronomia italiana</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="src/img/prato.png" class="imagem-carrossel d-block w-100" alt="tigelas com ingredientes culinários sendo manuseadas por pessoas, vistas por cima">
-                    </figure>
-                    <div class="carousel-caption h-100 d-none d-md-block">
-                        <h2 class="titulo-carrossel text-center display-4">Pratos e pizzas com massa integral </h2>
-                    </div>
-                </div>                    
-            </div>
-                <a class="carousel-control-prev" href="#carousel-controladores" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel-controladores" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+<body>      
+<header>               
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div><img class="logo" src="src/img/img1.png" alt=""></div>   
+        <a class="navbar-brand fonte-titulo texto-cor-especial" id="cor-titulo" href="#">Nostrali Trattoria e Pizzaria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#receitas">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a>
+                </li>
+            </ul>
         </div>
-    </section>            
+    </nav> 
+</header>
+<main> 
+    <div id="carousel-controladores" class="carousel slide" data-ride="carousel" data-interval="2700">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-controladores" data-slide-to="0"></li>
+            <li data-target="#carousel-controladores" data-slide-to="1"></li>
+            <li data-target="#carousel-controladores" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <figure>
+                    <img src="src/img/massa3.png" class="imagem-carrossel d-block w-100" alt="barraca de frutas e verduras em uma feira livre">
+                </figure>
+                <article class="carousel-caption h-100 d-none d-md-block">
+                    <h2 class="titulo-carrossel text-center display-4">Massas fabricadas artesanalmente</h2>
+                </article>
+            </div>
+            <div class="carousel-item">
+                <figure>
+                    <img src="src/img/madeinitaly.png" class="imagem-carrossel d-block w-100" alt="tigelas com ingredientes culinários sendo manuseadas por pessoas, vistas por cima">
+                </figure>
+                <article class="carousel-caption h-100 d-none d-md-block">
+                    <h2 class="titulo-carrossel made-in-italy text-center display-4">O melhor da gastronomia italiana</h2>
+                </article>
+            </div>
+            <div class="carousel-item">
+                <figure>
+                    <img src="src/img/prato.png" class="imagem-carrossel d-block w-100" alt="tigelas com ingredientes culinários sendo manuseadas por pessoas, vistas por cima">
+                </figure>
+                <article class="carousel-caption h-100 d-none d-md-block">
+                    <h2 class="titulo-carrossel text-center display-4">Pratos e pizzas com massa integral </h2>
+                </article>
+            </div>                    
+        </div>
+            <a class="carousel-control-prev" href="#carousel-controladores" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-controladores" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div>                
     <section class="cardapio-pratos">
-        <h2 class="text-center titulo-pratos pt-5">Pratos tradicionais</h2>
-        <p class="text-center paragrafo-pratos pb-3">A Nostrali atravessou o Atlântico para levar até você o melhor culinária italiana</p>        
-        <div class="card borda-card" style="width: 18rem;">
+        <article>
+            <h2 class="text-center titulo-pratos pt-5">Pratos tradicionais</h2>
+            <p class="text-center paragrafo-pratos pb-3">A Nostrali atravessou o Atlântico para levar até você o melhor culinária italiana</p>
+        </article>   
+        <aside class="card borda-card" style="width: 18rem;">
             <figure>
                 <img src="src/img/penne.png" class="card-img-top" alt="massa italiana penne ao pomodoro">
             </figure>
-            <div class="card-body">
+            <article class="card-body">
                 <h5 class="card-title">Penne ao Molho Pomodoro</h5>
                 <p class="card-text">Tomates frescos e maduros, agrião, cebola roxa, azeite extra virgem italiano, manjericão.</p>
                 <a href="#" class="btn ">Porções e valores</a>
-            </div>
-        </div>
-        <div class="card borda-card" style="width: 18rem;">
+            </article>
+        </aside>
+        <aside class="card borda-card" style="width: 18rem;">
             <figure>
                 <img src="src/img/fettuccine.png" class="card-img-top" alt="massa italiana fettuccine">
             </figure>
-            <div class="card-body">
+            <article class="card-body">
                 <h5 class="card-title">Fettuccine com ragu de calabresa e champignon</h5>
                 <p class="card-text">Tomates frescos e maduros, calabresa, champignon, cebola e azeite extra virgem italiano.</p>
                 <a href="#" class="btn ">Porções e valores</a>
-            </div>
-        </div>
-        <div class="card borda-card" style="width: 18rem;">
+            </article>
+        </aside>
+        <aside class="card borda-card" style="width: 18rem;">
             <figure>
                 <img src="src/img/bucattini.png" class="card-img-top" alt="massa italiana bucattini">
             </figure>
-            <div class="card-body">
+            <article class="card-body">
                 <h5 class="card-title">Bucattini à matriciana</h5>
                 <p class="card-text">Tomates frescos e maduros, bacon, cebola, vinho branco, pecorino ralado e pimenta calabresa.</p>
                 <a href="#" class="btn ">Porções e valores</a>
-            </div>
-        </div>
-        <div class="card borda-card" style="width: 18rem;">
+            </article>
+        </aside>
+        <aside class="card borda-card" style="width: 18rem;">
             <figure>
                 <img src="src/img/tortellini.png" class="card-img-top" alt="massa italiana tortellini">
             </figure>
-            <div class="card-body">
+            <article class="card-body">
                 <h5 class="card-title">Tortellini ao molho bolonhesa</h5>
                 <p class="card-text">Tomates frescos e maduros, carne moída, bacon, cebola, cenoura, aipo, vinho tinto e creme de leite.</p>
                 <a href="#" class="btn ">Porções e valores</a>
-            </div>
-        </div>
-        <div class="card borda-card" style="width: 18rem;">
+            </article>
+        </aside>
+        <aside class="card borda-card" style="width: 18rem;">
             <figure>
                 <img src="src/img/talharimMolhoPesto.png" class="card-img-top" alt="massa italiana talharim">
             </figure>
-            <div class="card-body">
+            <article class="card-body">
                 <h5 class="card-title">Talharim ao molho Pesto</h5>
                 <p class="card-text">Pinhão, parmesão, azeite extra virgen italiano, alho, manjericão e pimenta-do-reino preta.</p>
                 <a href="#" class="btn ">Porções e valores</a>
-            </div>
-        </div>
-        <div class="card borda-card" style="width: 18rem;">
+            </article>
+        </aside>
+        <aside class="card borda-card" style="width: 18rem;">
             <figure>
                 <img src="src/img/pizzas.png" class="card-img-top" alt="pizzas italianas">
             </figure>
-            <div class="card-body">
+            <article class="card-body">
                 <h5 class="card-title">Pizzas</h5>
-                <p class="card-text">Um cardápio requintado com diversos sabores selecionados pelo nosso Chef.</p>
+                <p class="card-text">Um cardápio requintado com articleersos sabores selecionados pelo nosso Chef.</p>
                 <a href="#" class="btn ">Sabores e valores</a>
-            </div>
-        </div>
+            </article>
+        </aside>
     </section>
     <section class="cardapio-pizzas">
-        <div>
-            <li>Aliche</li>
-            <p>molho de tomate, mussarela e búfala, aliche e parmesão</p>
-            <li>Aspargo</li>
-            <p>molho de tomate, queijo pecorino, queijo parmesão, ovo, grãos e aspargo</p>
-            <li>Boscaiola</li>
-            <p>molho de tomate, mussarela de búfala, bacon, presunto, cogumelos porcini fatiados e azeitonas pretas</p>
-            <li>Burrata</li>
-            <p>mussarela de búfala, burrata pugliese, tomate seco e pesto de azeitonas pretas</p>
-            <li>Escarola</li>
-            <p>molho de tomate, escarola refogada no azeite e alho, mussarela de búfalla e panceta</p>
-            <li>Frango com Catupiry</li>
-            <p>molho de tomate, frango desfiado, milho, catupiry e azeitonas pretas</p>
-            <li>Gamberetti</li>
-            <p>molho de tamate, mussarela de búfala, camarão alho e óleo e azeitonas pretas</p>
-            <li>Gorgonzola</li>
-            <p>molho de tamate, gorgonzola, mussarela de búfala, rodelas de tomate, azeitonas pretas</p>
-            <li>Marguerita</li>
-            <p>molho de tomate, mussarela de búfala, rodelas de tomate, parmesão e manjericão e azeitonas pretas</p>
-            <li>Marinara</li>
-            <p>molho de tomate, alho torrado, mussarela de búfula, tomate cereja</p>
-            <li>Mussarela</li>
-            <p>molho de tomate, mussarela de búfala, manjericão, azeitonas pretas e pimenta-do-reino preta</p>
-            <li>Napolitana</li>
-            <p>mussarela de búfala, rodelas de tomate, parmesão e azeitonas pretas</p>
-            <li>Parma</li>
-            <p>molho de tamate, presunto tipo parma, rúcula, parmesão, azeitonas pretas e pimenta-do-reino preta</p>
-            <li>Pepperoni</li>
-            <p>molho de tomate, salame picante, mussarela de búfala e azeitonas pretas</p>
-            <li>Pomodoro</li>
-            <p>molho de tomate, mussarela de búfala, tomates cerejas, parmesão e pimenta-do-reino preta</p>
-            <li>Quattro formaggi</li>
-            <p>molho de tomate, mussarela de búfala, gorgonzola, straccino, fontina e azeitonas pretas</p>
-            <li>Toscana</li>
-            <p>molho de tomate, linguiça calabresa moída, nussarela de búfala, azeitonas pretas, cebola e pimenta-do-reino preta</p>
-        </div>        
+        <ul>
+            <li class="lista-pizzas">Aliche</li>
+            <span>molho de tomate, mussarela e búfala, aliche e parmesão</span>
+            <li class="lista-pizzas">Aspargo</li>
+            <span>molho de tomate, queijo pecorino, queijo parmesão, ovo, grãos e aspargo</span>
+            <li class="lista-pizzas">Boscaiola</li>
+            <span>molho de tomate, mussarela de búfala, bacon, presunto, cogumelos porcini fatiados e azeitonas pretas</span>
+            <li class="lista-pizzas">Burrata</li>
+            <span>mussarela de búfala, burrata pugliese, tomate seco e pesto de azeitonas pretas</span>
+            <li class="lista-pizzas">Escarola</li>
+            <span>molho de tomate, escarola refogada no azeite e alho, mussarela de búfalla e panceta</span>
+            <li class="lista-pizzas">Frango com Catupiry</li>
+            <span>molho de tomate, frango desfiado, milho, catupiry e azeitonas pretas</span>
+            <li class="lista-pizzas">Gamberetti</li>
+            <span>molho de tamate, mussarela de búfala, camarão alho e óleo e azeitonas pretas</span>
+            <li class="lista-pizzas">Gorgonzola</li>
+            <span>molho de tamate, gorgonzola, mussarela de búfala, rodelas de tomate, azeitonas pretas</span>
+            <li class="lista-pizzas">Marguerita</li>
+            <span>molho de tomate, mussarela de búfala, rodelas de tomate, parmesão e manjericão e azeitonas pretas</span>
+            <li class="lista-pizzas">Marinara</li>
+            <span>molho de tomate, alho torrado, mussarela de búfula, tomate cereja</span>
+            <li class="lista-pizzas">Mussarela</li>
+            <span>molho de tomate, mussarela de búfala, manjericão, azeitonas pretas e pimenta-do-reino preta</span>
+            <li class="lista-pizzas">Napolitana</li>
+            <span>mussarela de búfala, rodelas de tomate, parmesão e azeitonas pretas</span>
+            <li class="lista-pizzas">Parma</li>
+            <span>molho de tamate, presunto tipo parma, rúcula, parmesão, azeitonas pretas e pimenta-do-reino preta</span>
+            <li class="lista-pizzas">Pepperoni</li>
+            <span>molho de tomate, salame picante, mussarela de búfala e azeitonas pretas</span>
+            <li class="lista-pizzas">Pomodoro</li>
+            <span>molho de tomate, mussarela de búfala, tomates cerejas, parmesão e pimenta-do-reino preta</span>
+            <li class="lista-pizzas">Quattro formaggi</li>
+            <span>molho de tomate, mussarela de búfala, gorgonzola, straccino, fontina e azeitonas pretas</span>
+            <li class="lista-pizzas">Toscana</li>
+            <span>molho de tomate, linguiça calabresa moída, nussarela de búfala, azeitonas pretas, cebola e pimenta-do-reino preta</span>
+        </ul>        
     </section>
 </main>
+<footer>
+
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
