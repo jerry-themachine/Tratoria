@@ -25,21 +25,41 @@ html {
   margin-top: 10px;
   margin-left: 20px;
 }
+.paragrafo-pratos{
+  font-family: 'Alatsi', sans-serif;   
+}
+.titulo-pratos {
+  font-family: 'Bebas Neue', cursiva;
+  font-style: italic;
+  font-weight: bold;
+  color: #006400;
+  font-size: 45px;
+}
 .imagem-carrossel {
-  height: 400px;
+  height: 340px;
   object-fit: cover;
   object-position: 0 50%;
 }
 .titulo-carrossel {
-  color: #FF4500;
+  color: #FFF;
   font-family: 'Alatsi', sans-serif; 
   font-weight: bold;
 }
 .carousel {
   margin-top: 120px;
 }
+.made-in-italy {
+  color: #006400;
+}
 .fonte-corpo {
   font-family: 'Alatsi', sans-serif; 
+}
+.btn {
+  background-color: #006400;
+  color: #FFF;
+}
+.borda-card {
+  border-color: #006400;
 }
 
 
