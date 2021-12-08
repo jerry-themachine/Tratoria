@@ -67,6 +67,12 @@ html {
   font-style: italic;
   font-weight: 800;
 }
-
+.card {
+  max-width: 18rem
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
 
 
