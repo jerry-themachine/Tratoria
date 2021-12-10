@@ -11,7 +11,7 @@ html {
 }
 .nav-link {  
   font-family: 'Alatsi', sans-serif;
-  font-size: 15px; 
+  font-size: 14.5px; 
   height: 20px; 
   margin-bottom: 20px;      
 }
@@ -25,8 +25,46 @@ html {
   margin-top: 10px;
   margin-left: 20px;
 }
-.paragrafo-pratos{
-  font-family: 'Alatsi', sans-serif;   
+.titulo-pedido {
+  position: relative;
+  left: 500px;
+  top: 20px;
+  border-radius: 15px;  
+  align-content: center;
+  background: #F6B208;
+  width: 320px;
+  height: 60px;
+  vertical-align: middle;
+  z-index: 2;
+}
+.pedido {
+  position: relative;
+  top: 10px;
+}
+.logo-whatsapp {
+  position: relative;
+  top: -15px;
+  left: 300px;
+  height: 200px;
+  width: auto;
+}
+.logo-pedido {
+  position: relative;
+  top: -10px;
+  left: 350px;
+  height: 220px;
+  width: auto;
+}
+.titulo-quem-somos {  
+  font-family: 'Courgette', cursive; 
+  font-style: italic;
+  font-weight: lighter;
+  color: #006400;
+  font-size: 55px;
+}
+.paragrafo-quem-somos {
+  position: relative;
+  font-family: 'Alatsi', sans-serif;  
 }
 .titulo-pratos {
   font-family: 'Courgette', cursive; 
@@ -34,6 +72,9 @@ html {
   font-weight: lighter;
   color: #006400;
   font-size: 55px;
+}
+.paragrafo-pratos{
+  font-family: 'Alatsi', sans-serif;   
 }
 .imagem-carrossel {
   height: 370px;
@@ -85,7 +126,7 @@ html {
 .bandeira {
   position: absolute; 
   left: 20px;
-  top: 1710px;  
+  top: 2705px;  
   height: 70px;
   width: auto;
 }

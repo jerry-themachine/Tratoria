@@ -17,7 +17,7 @@
 </head>
 
 <body>
-<!-- Header -->    
+    <!-- Header -->
     <header id="inicio">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <figure>
@@ -40,16 +40,16 @@
                         <a class="nav-link" href="cardapioPizza.html">Pizzas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#quem-somos">Quem somos</a>
+                        <a class="nav-link" href="#quem-somos">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="modal" data-target="#modal-de-contato" href="#">Contato</a>
+                        <a class="nav-link" data-toggle="modal" data-target="#modal-de-contato" href="#">Cadastro</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-<!-- Main -->
+    <!-- Main -->
     <main>
         <section id="carousel-controladores" class="carousel slide" data-ride="carousel" data-interval="2700">
             <ol class="carousel-indicators">
@@ -96,6 +96,69 @@
                 <span class="sr-only">Next</span>
             </a>
         </section>
+        <section id="pedido">
+            <div class="titulo-pedido">
+                <h2 class="text-center pedido" pt-5">FAÇA SEU PEDIDO</h2>
+            </div>
+            <figure>
+                <img class="logo-whatsapp" src="src/img/whatsapp.png" alt="logo whatsapp">
+                <img class="logo-pedido" src="src/img/pedido.jpg" alt="telefone para fazer pedido">
+            </figure>
+        </section>                  
+        <section id="quem-somos">
+            <article>
+                <h2 class="text-center titulo-quem-somos pt-0">Quem Somos</h2>
+                <p class="text-center paragrafo-quem-somos pb-3">Somos um restaurante com tradição e talento no preparo
+                    de nossos pratos e especializado na criação de sabores únicos. <br> Utilizamos ingrendientes de
+                    altíssima qualidade para proporcionar uma experiência única ao saborear nossos pratos em um ambiente
+                    alto padrão.
+                </p>
+            </article>
+        </section>
+
+        <section class="cards container bg-secondary p-2 text-dark bg-opacity-10">
+
+            <div class="row justify-content-center">
+
+                <aside class="card borda-card p-0 m-4 col-12 col-md-4">
+                    <figure>
+                        <img src="src/img/fachada.png" class="card-img-top" alt="imagem fachada do restaurante">
+                    </figure>
+                    <article class="card-body">
+                        <h5 class="card-title">Nossa História</h5>
+                        <p class="card-text">Em 1865, em uma pequena taverna no Distrito Spaccanapoli, na cidade de Nápoles na Itália, Carlo Nostrali mostrava ao mundo os segredos e sabores...</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#nossa-historia">Saiba mais</a>
+                    </article>
+                </aside>
+
+                <aside class="card borda-card p-0 m-4 col-12 col-md-4">
+                    <figure>
+                        <img src="src/img/deliveryMassas.png" class="card-img-top" alt="banner delivery - ubber eats e ifood">
+                    </figure>
+                    <article class="card-body">
+                        <h5 class="card-title">Nós levamos à você</h5>
+                        <p class="card-text">Se você não tem tempo para vir ao nosso restaurante para saborear nossas belas massas e desfrutar de um ambiente de requinte e refinado...</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#nos-levamos-a-voce">Saiba mais</a>
+                    </article>
+                </aside>
+
+                <aside class="card borda-card p-0 m-4 col-12 col-md-4">
+                    <figure>
+                        <img src="src/img/culinariaItaliana.jpg" class="card-img-top" alt="desenho de simbolos italianos">
+                    </figure>
+                    <article class="card-body">
+                        <h5 class="card-title">A culinária Italiana</h5>
+                        <p class="card-text">Os patrimônios que caracterizam a Itália são suas belezas paisagísticas e sua arte, mas a mais marcante característica é a gastronomia italiana. A cozinha...</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#culinaria-italiana">Saiba mais</a>
+                    </article>
+                </aside>
+
+            </div>
+        </section>
+
+
+
+
         <section id="cardapio-pratos">
             <article>
                 <h2 class="text-center titulo-pratos pt-5">Pratos tradicionais</h2>
@@ -113,8 +176,8 @@
                     <article class="card-body">
                         <h5 class="card-title">Penne ao Molho Pomodoro</h5>
                         <p class="card-text">Tomates frescos e maduros, agrião, cebola roxa, azeite extra virgem
-                            italiano, manjericão.</p>
-                        <a href="#" class="btn ">Porções e valores</a>
+                            italiano, manjericão e pimenta-do-reino preta.</p>
+                        <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#culinaria-italiana"">Porções e valores</a>
                     </article>
                 </aside>
                 <aside class="card borda-card p-0 m-4 col-12 col-md-4">
@@ -134,7 +197,7 @@
                     </figure>
                     <article class="card-body">
                         <h5 class="card-title">Bucattini à matriciana</h5>
-                        <p class="card-text">Tomates frescos e maduros, bacon, cebola, vinho branco, pecorino ralado e
+                        <p class="card-text">Tomates frescos e maduros, bacon, cebola, vinho branco, queijo tipo pecorino ralado e
                             pimenta calabresa.</p>
                         <a href="#" class="btn ">Porções e valores</a>
                     </article>
@@ -145,8 +208,8 @@
                     </figure>
                     <article class="card-body">
                         <h5 class="card-title">Tortellini à bolonhesa</h5>
-                        <p class="card-text">Tomates, carne moída, bacon, cebola, cenoura, aipo, vinho
-                            tinto e creme de leite.</p>
+                        <p class="card-text">Tomates, carne moída, bacon, cebola, cenoura, leite integral, aipo, vinho
+                            tinto, creme de leite e pimenta-do-reino preta.</p>
                         <a href="#" class="btn ">Porções e valores</a>
                     </article>
                 </aside>
@@ -156,7 +219,7 @@
                     </figure>
                     <article class="card-body">
                         <h5 class="card-title">Talharim ao molho Pesto</h5>
-                        <p class="card-text">Pinhão, parmesão, azeite extra virgen italiano, alho, manjericão e
+                        <p class="card-text">Pinhão, queijo tipo parmesão, pinoli, azeite extra virgen italiano, alho, manjericão e
                             pimenta-do-reino preta.</p>
                         <a href="#" class="btn ">Porções e valores</a>
                     </article>
@@ -167,15 +230,14 @@
                     </figure>
                     <article id="cardapio-pizza" class="card-body">
                         <h5 class="card-title">Pizzas</h5>
-                        <p class="card-text">Um cardápio requintado com articleersos sabores selecionados pelo nosso
-                            Chef.</p>
+                        <p class="card-text">Um cardápio requintado com uma grande diversidade de sabores selecionados cuidadosamente pelo nosso chefe de cozinha.</p>
                         <a href="cardapioPizza.html" class="btn ">Cardápio Pizzas</a>
                     </article>
                 </aside>
             </div>
         </section>
     </main>
-<!-- Footer -->
+    <!-- Footer -->
     <footer class="rodape">
         <div class="b-example-divider"></div>
         <div class="container">
@@ -196,21 +258,22 @@
                 </div>
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a href="https://twitter.com/"><img src="src/img/twiter.png" alt="logo-twiter"></a> </li>
-                    <li class="ms-3"><a href="https://www.instagram.com/"><img src="src/img/instagram.png" alt="logo-instagram"></a></li>
-                    <li class="ms-3"><a href="https://www.facebook.com/"><img src="src/img/facebook.png" alt="logo-facebook"></a></li>
+                    <li class="ms-3"><a href="https://twitter.com/"><img src="src/img/twiter.png" alt="logo-twiter"></a>
+                    </li>
+                    <li class="ms-3"><a href="https://www.instagram.com/"><img src="src/img/instagram.png"
+                                alt="logo-instagram"></a></li>
+                    <li class="ms-3"><a href="https://www.facebook.com/"><img src="src/img/facebook.png"
+                                alt="logo-facebook"></a></li>
                 </ul>
             </footer>
-        </div>
-        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        </div>        
     </footer>
-<!-- Modal -->
-    <div class="modal fade" id="modal-de-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal -->
+    <form class="modal fade" id="modal-de-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" method="post">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Contate-nos</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>                    
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
@@ -219,9 +282,14 @@
                             placeholder="Insira seu nome completo">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">e-mail</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nome@exemplo.com.br">
+                        <label for="exampleFormControlInput1" class="form-label">Whatsapp</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="(XX)X.XXXX-XXXX">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Endereço</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Rua, nº, Bairro, Cidade - CEP">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem que logo
@@ -231,13 +299,80 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btn-fechar-modal"
-                        data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn">Salvar</button>
+                        data-dismiss="modal">Fechar</button>
+                    <button type="reset" class="btn">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="nossa-historia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nossa História</h5>                    
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">Em 1865, em uma pequena taverna no Distrito Spaccanapoli, na cidade de Nápoles na Itália, Carlo Nostrali mostrava ao mundo os segredos e sabores de seus pratos e ninguém imaginava que alguns anos depois ele viria se concretizar como um dos mais renomados chefes de cozinha italiano.
+                        A ideia era fazer pratos e pizzas tradicionais com histórias para contar apenas como um hobby, mas tal fato teve grande repercussão e poder de transformação, capaz de fazer com que a gastronomia familiar fizesse parte de algo muito maior.
+                        As nossas famosas massas e pizzas, hoje consideradas um Patrimônio Cultural Imaterial da Humanidade pela Unesco, devido as massas serem amassadas à mão e combinadas com o uso da melhor medeira utilizada em fornos à lenha na Itália, a Beech, com a qual cozinhamos com muita suavidade e perfeição nossos pratos. As massas e pizzas acompanhadas de ingredientes frescos e produzidos diretamente da Itália, possuem o aroma característico da Beech, trazendo autenticidade em sua textura com um sabor incomparável.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
-<!-- Scripts -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="nos-levamos-a-voce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nós levamos à você</h5>                   
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">Se você não tem tempo para vir ao nosso restaurante para saborear nossas belas assas e desfrutar de um ambiente de requinte e refinado, não se preocupe, a Nostrali leva até você um pouco dessa atmosfera através de nossos saborosíssimos pratos.
+                        Lembrando que aqui em nosso site está disponível um fantástico cardápio-online elaborado cuidadosamente pelo nosso Chefe, contemplando o que há de melhor em na cozinha italiana.
+                        Você pode fazer o pedido em pelo tablete ou celular e acompanhar confortavelmente sentado do sofá em casa ou onde estiver.
+                        Após fazer o cadastro na aba "Cadastro", você encontrará todas as informações necessárias para fazer seu Pedido Online.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="culinaria-italiana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">A culinária Italiana</h5>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">Os patrimônios que caracterizam a Itália são suas belezas paisagísticas e sua arte, mas a mais marcante característica é a gastronomia italiana. A cozinha italiana está entre uma das mais ricas e completas do mundo, devido aos ingredientes característicos da cozinha típica da região.
+                        A diversidade de ingerdientes e temperos foi resultado da presença de diversos povos que passaram a habitar a península Itálica e durante os séculos deixaram seus traços culinários, inserindo novos elementos e pratos que são apreciados por várias décadas e por pessoas do mundo todo.
+                        Imerso no cenário gastronômico italiano, também nos deparamos com uma repleta variedade de salames, queijos e vinhos de primeira linha que completam a riquíssima cozinha tipicamente regional, presente em todos os cantos e cantinas da Itália e apreciadas mundialmente.
+                        Buon Appettito!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -247,6 +382,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
